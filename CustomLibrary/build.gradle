@@ -98,7 +98,7 @@ android {
         resValue "string", "clear_support_files_enabled", "false"
 
         //this is used to hide many of the preferences from the user
-        buildConfigField 'boolean', 'HIDE_USERLAND_PREFS', 'false'
+        buildConfigField 'boolean', 'HIDE_USERLAND_PREFS', 'true'
 
         //this should be set to true if the assets are embedded in the filesystem
         buildConfigField 'boolean', 'FILESYSTEM_ONLY_ASSET', 'false'
