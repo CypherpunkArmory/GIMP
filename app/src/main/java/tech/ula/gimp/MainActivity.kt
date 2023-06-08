@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
     fun processIntent(intent: Intent) {
         val ulaIntent = Intent(this, MainActivity::class.java)
-        val app = App("gimp","Distribution", "gimp", false, true, false, 1)
+        val app = App("gimp","Distribution", "gimp", false, true, "false", false, 1)
         ulaIntent.putExtra("app", app)
         this.startActivity(ulaIntent)
         finish()

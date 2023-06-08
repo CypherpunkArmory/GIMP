@@ -1,2 +1,2 @@
-App Name, Category, Filesystem Type Required, Supports CLI, Supports GUI, isPaidApp, Version
-GIMP, Distribution, gimp, false, true, false, 1
+App Name, Category, Filesystem Type Required, Supports CLI, Supports GUI, Supports Standalone, isPaidApp, Version
+GIMP, Distribution, gimp, false, true, false, false, 1
