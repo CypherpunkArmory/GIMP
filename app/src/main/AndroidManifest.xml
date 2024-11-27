@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="tech.ula.gimp">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.CAMERA" tools:node="remove"/>
     <uses-permission android:name="android.permission.RECORD_AUDIO" tools:node="remove"/>
@@ -11,8 +10,7 @@
         android:allowBackup="false"
         android:icon="@mipmap/ic_main_launcher"
         android:roundIcon="@mipmap/ic_main_launcher_round"
-        android:supportsRtl="true"
-        android:extractNativeLibs="true" >
+        android:supportsRtl="true">
 
         <activity android:name="tech.ula.gimp.MainActivity" android:launchMode="singleTask" android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|density|screenLayout" android:exported="true">
             <intent-filter>
